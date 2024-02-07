@@ -4,15 +4,8 @@ PROJECT_NAME = WMS
 
 .PHONY:  run
 
-docker-s:
-	docker-compose up -d
-
-migrations:
-	python manage.py makemigrations
-	python manage.py migrate
-
 pc:
 	poetry run pre-commit run --all-files
 
 run:
-	python manage.py runserver
+	docker-compose up --build
