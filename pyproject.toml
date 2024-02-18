@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "budget_planner"
+name = "django_template"
 version = "0.1.0"
 description = ""
 authors = ["Paweł Perenc <57562561+perqu@users.noreply.github.com>"]

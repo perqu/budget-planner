@@ -1,1 +1,1 @@
-# budget-planner
+# django_template
