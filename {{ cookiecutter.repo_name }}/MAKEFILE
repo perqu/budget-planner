@@ -1,6 +1,6 @@
 PYTHON = python
 PIP = pip
-PROJECT_NAME = WMS
+PROJECT_NAME = {{ cookiecutter.repo_name }}
 
 .PHONY:  run
 
