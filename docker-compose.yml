@@ -10,7 +10,7 @@ services:
 
   web:
     build: .
-    image: perqu/mywebsite:0.1
+    image: website
     command: python manage.py runserver 0.0.0.0:8000
     ports:
       - "8000:8000"
@@ -19,7 +19,7 @@ services:
 
   migrate:
     build: .
-    image: perqu/mywebsite:0.1
+    image: website
     command: python manage.py migrate
     depends_on:
       - db

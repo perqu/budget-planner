@@ -1,1 +1,1 @@
-# django_template
+# {{ cookiecutter.repo_name }}
