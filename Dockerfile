@@ -36,3 +36,5 @@ RUN poetry install $(test "$YOUR_ENV" == production && echo "--only=main") --no-
 
 # Copy project files
 COPY . /code
+
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8888"]

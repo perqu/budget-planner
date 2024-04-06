@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "{{ cookiecutter.repo_name }}"
+name = "template-django"
 version = "0.1.0"
 description = ""
 authors = ["Paweł Perenc <57562561+perqu@users.noreply.github.com>"]
@@ -8,15 +8,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-Django = "^5.0.2"
-python-dotenv = "^1.0.1"
+django = "^5.0.4"
 psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
 
-[tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
-black = "^24.1.1"
-pre-commit = "^3.6.0"
-click = "^8.0.2"
 
 [build-system]
 requires = ["poetry-core"]
